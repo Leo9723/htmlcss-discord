@@ -101,7 +101,7 @@ main {
 }
 
 .gray, .last-main-row {
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 
@@ -197,7 +197,6 @@ h1 {
 
  h3 {
     margin-bottom: 30px;
-    background-image: url(../img/stars.svg);
  }
 
 .h3-footer {
@@ -227,7 +226,14 @@ h1 {
     width: 20px;
  }
 
- .motto {
-    background-color: black;
-    height: 40px;
+ .star {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    margin: 0 auto;
+    width: 50%;
+ }
+
+ .onda {
+    position: relative;
+    top: 10px;
  }
