@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #255EE9;
+}
+
+.header-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.logo, .login {
+    width: 10%;
+    padding: 0px 10px;
+}
+.login {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-right: 50px;
+}
+
+.link {
+    width: 40%;
+}
+
+.lista-link {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    justify-content: center;
+    width: 100%;
+    font-size: 10px;
+}
+
+.elemento-lista {
+    text-align: center;
+    width: 20%;
+}
+
+.row-intro {
+    padding: 150px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.col-intro {
+    width: 50%;
+    text-align: center;
+    
+}
+
+.row {
+    
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.gray {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row, .last-main-row, .footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-img {
+    background-color: skyblue;
+    width: 35%;
+}
+
+.col-text {
+    background-color: pink;
+    width: 20%;
+    margin-bottom: 70px;
+}
+
+.col-text, .col-img {
+    border: 1px solid black;
+}
+
+.gray, .last-main-row {
+    background-color: lightgray;
+}
+
+
+.last-main-col {
+    border: 1px solid black;
+    background-color: green;
+    width: 55%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer-row {
+    background-color: rgb(3, 26, 26);
+    padding-top: 50px;
+    color: white;
+}
+
+.main-footer-col {
+    height: 320px;
+    border: 1px solid black;
+    width: 25%;
+    background-color: salmon;
+}
+
+.footer-col {
+    height: 320px;
+    border: 1px solid white;
+    width: calc(30% / 4);
+    background-color: aquamarine;
+}
+
+.footer-container {
+    background-color: rgb(3, 26, 26);
+    border: 1px solid white;
+    height: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.last-footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 35px;
+    background-color: aquamarine;
+}
+
+.footer-button {
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.bottoni {
+    height: 30px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottone {
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.bianco {
+    background-color: white;
+    color: black;
+}
+.nero {
+    background-color: black;
+    color: white;
+}
+
+.blu {
+    background-color: blue;
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ h2 {
+    margin-bottom: 15px;
+ }
+
+ h3 {
+    color: blue;
+    margin-bottom: 30px;
+    background-image: url(../img/stars.svg);
+ }
+
+ .ultima-lista {
+    list-style-type: none;
+    padding-left: 0px;
+    line-height: 1.5;
+    color: white;
+ }
+ 
+ .primo-elemento {
+    color: blue;
+ }
+
+ .text-white {
+    color: white;
+ }
+
+ img {
+    width: 100%;
+ }
